@@ -5,7 +5,8 @@
   "src/test"]
 
  :dependencies
- [[rum "0.12.9"]]
+ [[rum "0.12.9"]
+  [org.clojure/java.jdbc "0.7.12"]]
 
  :dev-http{3333 "public"}
  :builds
